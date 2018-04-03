@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<ivysettings>
+  <resolvers>
+    <ibiblio name="public" m2compatible="true" />
+    <ibiblio name="maven" m2compatible="true" />
+    <ibiblio name="maven2" m2compatible="true" />
+    <chain name="internal">
+      <resolver ref="local"/>
+    </chain>
+  </resolvers>
+  <modules>
+    <module organisation="example" name="test" resolver="internal"/>
+  </modules>
+</ivysettings>

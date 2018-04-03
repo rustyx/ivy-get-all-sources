@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<configurations defaultconfmapping="*->default,sources">
+	<conf name="sources" visibility="public"/>
+</configurations>
