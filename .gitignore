@@ -1,0 +1,32 @@
+target/
+MANIFEST.MF
+overlays/
+
+*.class
+classes/
+
+*.jar
+*.zip
+*.gz
+*.tmp
+*.out
+*.log
+*.log.?
+*.log.??
+
+# Eclipse files
+.classpath
+.project
+.settings
+Servers/
+.metadata/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+.svn
+.DS_Store
+
+composer.lock
+Thumbs.db
